@@ -10,6 +10,7 @@ import {
   StatusBar,
   Dimensions
 } from 'react-native';
+
 import { 
   Menu, 
   X, 
@@ -1652,12 +1653,7 @@ const styles = StyleSheet.create({
   assessmentHeader: {
     marginBottom: 24,
   },
-  progressHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 12,
-  },
+  
   assessmentTitle: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -1849,16 +1845,7 @@ const styles = StyleSheet.create({
   statItem: {
     alignItems: 'center',
   },
-  statNumber: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 4,
-  },
-  statLabel: {
-    fontSize: 12,
-    color: '#64748b',
-  },
+
   settingsCard: {
     backgroundColor: '#1e293b',
     borderRadius: 12,
