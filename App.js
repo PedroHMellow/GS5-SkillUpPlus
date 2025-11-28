@@ -1,3 +1,4 @@
+import { registerRootComponent } from 'expo';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, TouchableOpacity, StatusBar, Modal, ScrollView, Text, Dimensions } from 'react-native';
 import storage from './utils/storage';
@@ -12,7 +13,7 @@ import ProfileScreen from './pages/ProfileScreen';
 
 const { width } = Dimensions.get('window');
 
-export default function App() {
+function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const [currentScreen, setCurrentScreen] = useState('home');
@@ -263,3 +264,5 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
 });
+
+registerRootComponent(App);
