@@ -14,3 +14,8 @@ Gabriel Borba - RM553187
 Enzo Teles de Moura - RM553899
 
 Pedro Henrique Mello Silva Alves - RM554223
+
+# Iniciação 
+
+npm install
+npx expo start --clear
