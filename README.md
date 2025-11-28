@@ -18,4 +18,5 @@ Pedro Henrique Mello Silva Alves - RM554223
 # Iniciação 
 
 npm install
+
 npx expo start --clear
